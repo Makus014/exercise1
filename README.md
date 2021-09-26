@@ -1,5 +1,4 @@
 # Assignment-For-introduction-programming
-// Marcus Alexander Tadili
 // HCCL4
 
 
@@ -27,30 +26,57 @@
 	}
   
   	//slide 25 (number checker)
- 	 #include <iostream>
+	#include <iostream>
 	using namespace std;
 
 	int main() {
 
-	int iprofit;
-	int price;
-	int loss;
+	int inum;
+	
+	cout << "Simple Number Checker Program!\n";
 
+	cout << "Type a number: ";
+	cin >> inum;
+
+	if (inum > 0) {
+		cout << " Thats positive";
+	}
+	else if (inum < 0) {
+		cout << " Thats negative";
+	}
+	else {
+		cout << " Zero";
+	}
+
+
+	return 0;
+	}
+	
+	// slide 26 (Profit or loss)
+ 	#include <iostream>
+	using namespace std;
+
+	int main() {
+
+	int purchase;
+	int sell;
+	int loss;
+	int profit;
 
 	cout << "Enter the Purchase price : ";
-	cin >> iprofit;
-	cout << "Enter the Loss :  ";
-	cin >> price;
-	if (iprofit > price) {
-		loss = iprofit - price;
-		cout << loss << " Profit" << endl;
+	cin >> purchase;
+	cout << "Enter the Selling price :  ";
+	cin >> sell;
+	profit = sell - purchase;
+
+	if (profit > 0) {
+		cout << profit << " Profit" << endl;
 	}
-	else if (iprofit < price) {
-		loss = price - iprofit;
-		cout << loss << " You loss" << endl;
+	else if (profit == 0) {
+		cout << profit << " Breakeven" << endl;
 	}
-	else {                              
-		cout << "No money cuz you lost and no profit" << endl;
+	else {
+		cout << profit << " Loss" << endl;
 	}
 
 
