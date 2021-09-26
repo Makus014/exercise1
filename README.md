@@ -2,7 +2,7 @@
 // HCCL4
 
 
-	// slide 24 (odd or even)
+// slide 24 (odd or even)
 	#include <iostream>
 	using namespace std;
 
@@ -25,7 +25,7 @@
 	return 0;
 	}
   
-  	//slide 25 (number checker)
+  //slide 25 (number checker)
 	#include <iostream>
 	using namespace std;
 
@@ -52,7 +52,7 @@
 	return 0;
 	}
 	
-	// slide 26 (Profit or loss)
+// slide 26 (Profit or loss)
  	#include <iostream>
 	using namespace std;
 
@@ -88,8 +88,8 @@
                               
                                                          
                                                          
-	 // slide 27 (Name of shape)
-	 #include <iostream>
+ // slide 27 (Name of shape)
+	#include <iostream>
 	#include <string>
 	using namespace std;
 
