@@ -3,12 +3,12 @@
 // HCCL4
 
 
-// slide 24 (odd or even)
-#include <iostream>
-using namespace std;
+	// slide 24 (odd or even)
+	#include <iostream>
+	using namespace std;
 
 
-int main() {
+	int main() {
 	int inum;
 
 	cout << "Enter any number: ";
@@ -24,13 +24,13 @@ int main() {
 
 	cin.get();
 	return 0;
-}
+	}
   
-  //slide 25 (number checker)
-  #include <iostream>
-using namespace std;
+  	//slide 25 (number checker)
+ 	 #include <iostream>
+	using namespace std;
 
-int main() {
+	int main() {
 
 	int iprofit;
 	int price;
@@ -41,17 +41,15 @@ int main() {
 	cin >> iprofit;
 	cout << "Enter the Loss :  ";
 	cin >> price;
-// profit
 	if (iprofit > price) {
 		loss = iprofit - price;
 		cout << loss << " Profit" << endl;
-	}  // loss
+	}
 	else if (iprofit < price) {
 		loss = price - iprofit;
 		cout << loss << " You loss" << endl;
 	}
-	else {
- //no loss and no profit                               
+	else {                              
 		cout << "No money cuz you lost and no profit" << endl;
 	}
 
@@ -64,20 +62,20 @@ int main() {
                               
                                                          
                                                          
- // slide 27 (Name of shape)
- #include <iostream>
-#include <string>
-using namespace std;
+	 // slide 27 (Name of shape)
+	 #include <iostream>
+	#include <string>
+	using namespace std;
 
 
-int main() {
+	int main() {
 
 	int inum;
 	string shape;
 
 	cout << "Type 1 to 10" << endl;
 	cin >> inum;
-// if you type less than 2 the message will appear here
+	// if you type less than 2 the message will appear here
 	if (inum <= 2) {
 		cout << "there is no shape that is less than 2 sides";
 	}
